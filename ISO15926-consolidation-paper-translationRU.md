@@ -1,118 +1,10 @@
                 https://15926.org/topics/                          
 
-  ![image-1.png](images_ISO15926_cons_paper/image-1.png)    
+  <img src="images_ISO15926_cons_paper/image-1.png" alt="image-1.png" style="zoom:50%;" />    
 
 ### Table of Contents
 
-**[INTRODUCTION](#_Toc39570914)**
-
-**[WHY ISO 15926 ?](#_Toc39570915)**
-
-**[ISO 15926 AND THE SEMANTIC WEB](#_Toc39570916)**
-
-**[OVERVIEW](#_Toc39570917)**
-
-**[PART 2 DATA MODEL](#_Toc39570918)**
-
-**[POSSIBLE INDIVIDUALS](#_Toc39570919)**
-
-**[CLASSES AND INDIVIDUALS](#_Toc39570920)**
-
-**[RELATION, RELATIONSHIP AND CLASS OF  RELATIONSHIP](#_Toc39570921)**
-
-**[ONTOLOGIES](#_Toc39570922)**
-
-**[PART 7 TEMPLATES](#_Toc39570923)**
-
-**[MULTIDIMENSIONAL OBJECTS](#_Toc39570924)**
-
-**[TEMPORAL PARTS](#_Toc39570925)**
-
-**[MODELING](#_Toc39570926)**
-
-**[MAPPING](#_Toc39570927)**
-
-**[OUTLINE OF MAPPING PROCESS](#_Toc39570928)**
-
-**[MAPPING SOFTWARE](#_Toc39570929)**
-
-**[MAPPING SEQUENCE](#_Toc39570930)**
-
-**[ISO 15926-8 EXCHANGE FILE](#_Toc39570931)**
-
-**[PART 10 CONFORMANCE TESTING](#_Toc39570932)**
-
-**[N-TRIPLES](#_Toc39570933)**
-
-**[PART 9 TRIPLE STORE](#_Toc39570934)**
-
-**[CERTIFICATION](#_Toc39570935)**
-
-**[REFERENCE DATA](#_Toc39570936)**
-
-**[RELATED SUBJECTS](#_Toc39570937)**
-
-**[DOCUMENTS AND ISO 15926](#_Toc39570938)**
-
-**[WORKFLOW MANAGEMENT SYSTEM AND ISO  15926](#_Toc39570939)**
-
-**[POSSIBLE WORLDS](#_Toc39570940)**
-
-**[PLANNING SYSTEM AND ISO 15926](#_Toc39570941)**
-
-**[CFIHOS AND ISO 15926](#_Toc39570942)**
-
-**[OTHER PARTS OF ISO 15926](#_Toc39570943)**
-
-**[WORK TO BE DONE](#_Toc39570944)**
-
-**[EPILOG](#_Toc39570945)**
-
- 
-
-**Table of Figures** 
-
-[Figure 1 – Title of ISO 15926](#_Toc39501752)
-
-[Figure 2 - Point-to-point interfaces](#_Toc39501753)
-
-[Figure 3 - One interface only via a hub](#_Toc39501754)
-
-[Figure 4 – ISO 15926 in one picture](#_Toc39501755)
-
-[Figure 5 – Overview](#_Toc39501756)
-
-[Figure 6 – Top of Part 2 taxonomy](#_Toc39501757)
-
-[Figure 7 – Example of interrelationships between  classes and individuals](#_Toc39501758)
-
-[Figure 8  - Subtypes of PossibleIndividual](file:///D:\15926\BOOK\ISO15926paper20200416.docx#_Toc39501759)
-
-[Figure 9 - PossibleIndividuals with their Classes](#_Toc39501760)
-
-[Figure 10 -  Relation vs Relationship](#_Toc39501761)
-
-[Figure 11 – Basic Ontology and Implementation](#_Toc39501762)
-
-[Figure 12 – Two-level ontology and implementation](#_Toc39501763)
-
-[Figure 13 – Template for Fig. 12](#_Toc39501764)
-
-[Figure 14 – Example template graph](#_Toc39501765)
-
-[Figure 15 – An example of the use of  MultidimensionalObject](#_Toc39501766)
-
-[Figure 16 – Chain of temporal parts in the real  world](#_Toc39501767)
-
-[Figure 17 – Adding a (Class of) temporal part](#_Toc39501768)
-
-[Figure 18 – High-level Plant Life-cycle Model](#_Toc39501769)
-
-[Figure 19 – Reference Data Library and its  extensions](#_Toc39501770)
-
-[Figure 20 – Integration of documents in  life-cycle information](#_Toc39501771)
-
- 
+[TOC]
 
 ## **INTRODUCTION ВВЕДЕНИЕ**
 
@@ -164,7 +56,7 @@ The overall title of ISO 15926 is:
 
 Общее название ISO 15926:
 
- ![image-2.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-2.png)
+ <img src="images_ISO15926_cons_paper/image-2.png" alt="image-2.png" style="zoom:67%;" />
 
 Figure 1 – Title of ISO 15926 Рисунок 1 - Название ISO 15926
 
@@ -188,7 +80,7 @@ Computer systems also speak their own language internally, and as such can only 
 
 Компьютерные системы также говорят на своем собственном внутренним языке и как таковые могут общаться с другими системами только через интерфейсы. Количество интерфейсов растет экспоненциально с количеством систем. Если у вас две системы, у вас есть два интерфейса. Но если у вас есть десять систем, у вас уже есть максимум 90 интерфейсов.
 
- ![image-3.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-3.png)
+ ![image-3.png](images_ISO15926_cons_paper/image-3.png)
 
 Figure 2 - Point-to-point interfaces Рисунок 2 - Двухточечные интерфейсы
 
@@ -204,7 +96,7 @@ So, the solution is that we teach all our systems one common language.
 
  Таким образом, решение состоит в том, чтобы учить все наши системы одному общему языку.
 
-![image-4.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-4.png)
+![image-4.png](images_ISO15926_cons_paper/image-4.png)
 
 Figure 3 - One interface only via a hub  Рисунок 3 - Один интерфейс только через концентратор
 
@@ -231,6 +123,8 @@ However, the goal of integrating life-cycle information for the facilities meant
 In this paper the ISO 15926 solutions to these problems are covered.
 
 В этом документе ISO 15926 рассматриваются решения этих проблем.
+
+
 
 ## **ISO 15926 AND THE SEMANTIC WEB ISO 15926 И СЕМАНТИЧЕСКАЯ СЕТЬ**
 
@@ -310,9 +204,11 @@ Let us peek into the end result as a kind of sign post:
 
 • приложение с адаптером импорта, совместимым с ISO 15926, запускает запрос к хранилищу триплетов или объединению хранилищ триплетов, импортирует результат запроса и отображает его в своем внутреннем формате. Поскольку все стандартизировано, настройка этих запросов предсказуема.
 
- ![image-5.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-5.png)
+ ![image-5.png](images_ISO15926_cons_paper/image-5.png)
 
 Figure 4 – ISO 15926 in one picture  Рисунок 4 - ISO 15926 на одном изображении
+
+
 
 ## **OVERVIEW ОБЗОР**
 
@@ -340,7 +236,7 @@ In a nutshell ISO 15926 is set up as shown in Fig. 5.
 
 Вкратце, ISO 15926 настроен так, как показано на рис. 5.
 
- ![image-6.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-6.png)
+ ![image-6.png](images_ISO15926_cons_paper/image-6.png)
 
 Figure 5 – Overview Рисунок 5 – Обзор
 
@@ -382,7 +278,7 @@ These entity types are interrelated into a taxonomy, a hierarchy of classes. The
 
 Эти типы объектов взаимосвязаны в таксономии, иерархии классов. Вершина этой иерархии показана на рис. 6.
 
- ![image-7.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-7.png)
+ ![image-7.png](images_ISO15926_cons_paper/image-7.png)
 
 Figure 6 – Top of Part 2 taxonomy Рисунок 6 - Верхняя часть 2 таксономии
 
@@ -392,7 +288,7 @@ Figure 6 – Top of Part 2 taxonomy Рисунок 6 - Верхняя часть
 
 https://15926.org/topics/data-model/index.htm#diagram_for_top_level
 
-![image-8.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-8.png)
+![image-8.png](images_ISO15926_cons_paper/image-8.png)
 
 In Fig. 6 all blocks are a 'class' in terms of general set theory.
 
@@ -441,7 +337,7 @@ The relationship between Class and PossibleIndividual is shown in Fig. 7.
 
  Взаимосвязь между Class и PossibleIndividual показана на рис. 7.
 
-![image-9.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-9.png)
+![image-9.png](images_ISO15926_cons_paper/image-9.png)
 
 Figure 7 – Example of interrelationships between classes and individuals Рисунок 7 - Пример взаимоотношений между классами и индивидуумами
 
@@ -473,7 +369,7 @@ PossibleIndividual is a 'class' and is the top of a taxonomy of types of Possibl
 
 Возможный индивид является «классом» и является вершиной таксономии типов возможного индивида, как показано на рис. 8 ниже.
 
-​        ![image-10.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-10.png)
+​        ![image-10.png](images_ISO15926_cons_paper/image-10.png)
 
 ​        Figure 8 - Subtypes of    PossibleIndividual Рисунок 8 - Подтипы Возможного Индивида
 
@@ -557,6 +453,8 @@ Here are the definitions:
 
 **Функциональный объект (FunctionalObject)** - FunctionalObject - это PhysicalObject, который имеет только функцию или назначение.
 
+
+
 ## **CLASSES AND INDIVIDUALS КЛАССЫ И ИНДИВИДЫ**
 
 In Fig. 9 below the subtypes of PossibleIndividual are related to subtypes of ClassOfIndividual. For the definitions see http://15926.org/topics/data-model/index.htm .
@@ -565,9 +463,11 @@ In Fig. 9 below the subtypes of PossibleIndividual are related to subtypes of Cl
 
 []: http://15926.org/topics/data-model/index.htm
 
-![image-11.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-11.png)
+![image-11.png](images_ISO15926_cons_paper/image-11.png)
 
 Figure 9 - PossibleIndividuals with their Classes Рисунок 9 - Возможные индивиды с их классами (below this line no instantiation of individuals is allowed - ниже этой линии не допускается конкретизация отдельных индивидов)
+
+
 
 ## **RELATION, RELATIONSHIP AND CLASS OF RELATIONSHIP ОТНОШЕНИЯ, ВЗАИМООТНОШЕНИЯ И КЛАСС ВЗАИМООТНОШЕНИЙ**
 
@@ -583,7 +483,7 @@ There is a difference between 'relation' and 'relationship' in ISO 15926. This i
 
  Существует разница между «отношением relation» и «отношением relationship» в ISO 15926. Это показано на рисунке 10.
 
-![image-12.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-12.png)
+![image-12.png](images_ISO15926_cons_paper/image-12.png)
 
 Figure 10 - Relation vs Relationship Рисунок 10 - Отношение против взаимоотношения
 
@@ -794,6 +694,8 @@ which is not overly interesting.
 
 что не слишком интересно. 
 
+
+
 ## **ONTOLOGIES ОНТОЛОГИИ**
 
 When discussing the role of instances of subtypes of ClassOfRelationship we must discuss the overloaded term 'Ontology' first. Overloaded because there are many definitions.
@@ -828,7 +730,7 @@ Assume, for example, the following very simple construct at class level and its 
 
 Предположим, например, следующую очень простую конструкцию на уровне класса и ее реализацию на уровне экземпляра:
 
- ![image-13.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-13.png)
+ ![image-13.png](images_ISO15926_cons_paper/image-13.png)
 
 Figure 11 – Basic Ontology and Implementation Рисунок 11 - Базовая онтология и реализация
 
@@ -850,7 +752,7 @@ Ontologies in ISO 15926 can involve more than above one level as is shown in Fig
 
  Онтологии в ISO 15926 могут включать более одного уровня, как показано на рисунке 12.
 
-![image-14.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-14.png)
+![image-14.png](images_ISO15926_cons_paper\image-14.png)
 
 Figure 12 – Two-level ontology and implementation 
 
@@ -883,7 +785,7 @@ This can be specialized, for example by replacing ClassOfFunctionalObject with i
 
 ```
 
-![](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-14_1.png)
+![image-14_1.png](images_ISO15926_cons_paper\image-14_1.png)
 
 
 
@@ -898,6 +800,8 @@ In order to avoid miscommunications due to different opinions about the scope of
 In the next chapter the concept of templates is further detailed.
 
 В следующей главе раскрывается концепция шаблонов более подробно.
+
+
 
 ##  **PART 7 TEMPLATES ЧАСТЬ 7 ШАБЛОНЫ**
 
@@ -957,7 +861,7 @@ Now we take the 'ONTOLOGY AT INDIVIDUAL LEVEL' from Fig. 12 and turn that into a
 
 Теперь мы берем «ОНТОЛОГИЮ НА ИНДИВИДУАЛЬНОМ УРОВНЕ» из рисунка 12 и превращаем его в шаблон, называемый ParticipationOfIndividualInActivity (Участие индивидов в деятельности):
 
- ![image-15.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper/image-15.png)
+ ![image-15.png](images_ISO15926_cons_paper/image-15.png)
 
 Figure 13 – Template for Fig. 12  Рисунок 13 - Шаблон для Рис. 12
 
@@ -972,6 +876,8 @@ A template has two or more relations that point at the things of which the value
 The signature of this template is part of the following code that defines the template in generic, Part 2 entity, terms:
 
 Подпись этого шаблона является частью следующего кода, который определяет шаблон в общих терминах, часть 2, термины:
+
+
 
 > :ParticipationOfIndividualInActivity
 >
@@ -991,9 +897,13 @@ The signature of this template is part of the following code that defines the te
 >
 > ​     meta:valEffectiveDate "xsd:dateTime"^^xsd:dateTime .
 
+
+
 Assume that we use the same data as in Fig. 12, that is that PUMP SYSTEM P-101/AN4519159 participates in Activity ACT594583 in the Role of PERFORMER. Then an instance of above template is being instantiated with the relations (dubbed 'roles') being populated with these data:
 
 Предположим, что мы используем те же данные, что и на рисунке 12, то есть система PUMP P-101 / AN4519159 участвует в действии ACT594583 в роли PERFORMER (ИСПОЛНИТЕЛЬ). Затем создается экземпляр вышеупомянутого шаблона с отношениями (названными «ролями»), которые заполняются этими данными:
+
+
 
 > :73622c8a-2fde-4f13-98d8-add6708587f8 
 >
@@ -1010,6 +920,8 @@ Assume that we use the same data as in Fig. 12, that is that PUMP SYSTEM P-101/A
 > ​	meta:hasLifecycleActivity rdl:RDS2229992 ;
 >
 > ​	meta:valEffectiveDate "2020-04-07T13:36:00Z"^^xsd:dateTime **.**
+
+
 
 This paper being a "gentle introduction" calls for an extensive explanation of above code, which is being given below:
 
@@ -1031,6 +943,8 @@ The format is such that when it has been parsed it creates 'triples' such as:
 
 Формат таков, что после анализа он создает «тройки», такие как:
 
+
+
 > :73622c8a-2fde-4f13-98d8-add6708587f8 rdf:type tpl:ParticipationOfIndividualInActivity .
 >
 > :73622c8a-2fde-4f13-98d8-add6708587f8 rdfs:label "[PUMP SYSTEM] individual etc"@en .
@@ -1038,6 +952,8 @@ The format is such that when it has been parsed it creates 'triples' such as:
 > etc. until the dot is found (here behind ^^xsd:dateTime . ).
 >
 > и т.д., пока точка не будет найдена (здесь за ^^ xsd: dateTime.).
+
+
 
 The label "[PUMP SYSTEM] individual [P-101] participates in Activity [Pumping waste water to sewer] in a [PERFORMER] Role"@en can be automatically generated using the labels and the 'essential types' of the things involved. The texts between [ ] are the variables.
 
@@ -1051,7 +967,7 @@ For this template the graph of Fig. 14 is given.
 
 Для этого шаблона приведен график на рис. 14.
 
-![image-16.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-16.png)
+![image-16.png](images_ISO15926_cons_paper\image-16.png)
 
 Figure 14 – Example template graph Рисунок 14 - Пример шаблона графа
 
@@ -1091,6 +1007,8 @@ The Classifications of the Activity and the PhysicalObject are defined in their 
 
 Классификации Classification Activity и PhysicalObject определены в их объявлениях.
 
+
+
 ## **MULTIDIMENSIONAL OBJECTS МНОГОМЕРНЫЕ ОБЪЕКТЫ**
 
 So far the MultidimensionalObject has only been mentioned once, for the fact that a Template is, next to being an instance of ClassOfInformationRepresentation, is an instance of MultidimensionalObject.
@@ -1109,7 +1027,7 @@ In order to give meaning to the relations of a MultidimensionalObject a classifi
 
 Чтобы придать смысл отношениям MultidimensionalObject, требуется классификация с экземпляром ClassOfMultidimensionalObject, см. Рис. 15.
 
- ![image-17.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-17.png)
+ ![image-17.png](images_ISO15926_cons_paper\image-17.png)
 
 Figure 15 – An example of the use of MultidimensionalObject Рисунок 15 - Пример использования MultidimensionalObject
 
@@ -1123,7 +1041,7 @@ This, of course, is a case that will not often be represented like this. But it 
 
 A **MultidimensionalObject** is an AbstractObject that is an ordered list of Thing. 
 
-***MultidimensionalObject\*** - это AbstractObject, который представляет собой упорядоченный список сущностей Thing.
+**MultidimensionalObject** - это AbstractObject, который представляет собой упорядоченный список сущностей Thing.
 
 The significance of the MultidimensionalObject is determined by being a member of a ClassOfMultidimensionalObject that indicates the role played by each of its elements.
 
@@ -1131,7 +1049,7 @@ The significance of the MultidimensionalObject is determined by being a member o
 
 A **ClassOfMultidimensionalObject** is a Class whose members are instances of MultidimensionalObject. The role played by each position in the classified MultidimensionalObject is specified at the same position in the 'roles' attribute. (NOTE – it has some more optional attributes that are never being used).
 
-***ClassOfMultidimensionalObject\*** - это класс, члены которого являются экземплярами MultidimensionalObject. Роль, которую играет каждая позиция в классифицированном многомерном объекте, указывается в той же позиции в атрибуте «роли». (ПРИМЕЧАНИЕ. У него есть несколько дополнительных атрибутов, которые никогда не используются).
+**ClassOfMultidimensionalObject** - это класс, члены которого являются экземплярами MultidimensionalObject. Роль, которую играет каждая позиция в классифицированном многомерном объекте, указывается в той же позиции в атрибуте «роли». (ПРИМЕЧАНИЕ. У него есть несколько дополнительных атрибутов, которые никогда не используются).
 
 Where the 'roles' and 'elements' are supposed to be LISTs, that appeared to be one of the impossibilities in the language of use (OWL, discussed later). As can be observed the 'roles' and the 'elements' get a serial number for implementation reasons (role1, role2, etc.).
 
@@ -1249,7 +1167,7 @@ These are the most important ones, and in the Plant Life-cycle Model (discussed 
 
  Это наиболее важные из них, и в модели жизненного цикла установки (обсуждаемой позже) это четко показано:
 
-![image-18.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-18.png)
+![image-18.png](images_ISO15926_cons_paper\image-18.png)
 
 Figure 16 – Chain of temporal parts in the real world Рисунок 16 - Цепочка временных частей в реальном мире
 
@@ -1260,6 +1178,8 @@ In practice these temporal parts are being managed in different systems.
 The temporal parts can have temporal parts and these can have temporal parts, etc., so a hierarchy. That hierarchy has one PossibleIndividual, typed as WholeLifeIndividual, at the top. This WholeLifeIndividual is dubbed the immutable 'anchor'. Each instance of a subtype of PossibleIndividual that is being declared is typed that way. As an example we take that pump P-101/AN4519159 that participated in that pumping activity:
 
 Временные части могут иметь временные части, и они могут иметь временные части и т. д., поэтому и иерархия. У этой иерархии есть один возможный индивидуум PossibleIndividual, типизированный как WholeLifeIndividual, в верхней части. Этот WholeLifeIndividual назван неизменным «якорем». Каждый экземпляр объявленного подтипа возможного индивида PossibleIndividual может быть объявлен таким образом. В качестве примера мы возьмем тот насос P-101 / AN4519159, который участвовал в этой насосной деятельности:
+
+
 
 > :501b174f-9ab4-4b1d-a64e-0c143c91b7e2
 >
@@ -1274,6 +1194,8 @@ The temporal parts can have temporal parts and these can have temporal parts, et
 > #and subsequent text are just annotations that do not belong to the code.
 >
 > \# и последующий текст - это просто аннотации, которые не принадлежат к коду.
+
+
 
 Lower in that hierarchy are new temporal parts for every state change in temperature, location, etc. For any implementation it would be totally impractical to declare each and every such temporal part PhysicalObjects. The solution for that can be seen in Fig. 14 where the temporal parts are in the template graph, for the semantic definition, but not in the template signature. For each recorded change in the semantics the 'effective date' of a representing (new) template is being recorded. This is how the 4th dimension is taken care of.
 
@@ -1295,7 +1217,7 @@ Temporal part Individuals and Classes must be declared and then will be linked t
 
  Временная часть Индивидуумов и классы должны быть объявлены и затем будут связаны с их (классом) временного целого с помощью шаблона, как показано на рис. 17.
 
-![image-19.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-19.png)
+![image-19.png](images_ISO15926_cons_paper\image-19.png)
 
 Figure 17 – Adding a (Class of) temporal part Рисунок 17 - Добавление (класса) временной части
 
@@ -1355,7 +1277,7 @@ Re 1. – Fig. 18 shows a high-level plant life-cycle model:
 
 Re 1. - На рис. 18 показана модель жизненного цикла объекта на высоком уровне:
 
-![image-20.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-20.png)
+![image-20.png](images_ISO15926_cons_paper\image-20.png)
 
 Figure 18 – High-level Plant Life-cycle Model Рисунок 18 - Модель жизненного цикла объекта на высоком уровне
 
@@ -1377,7 +1299,7 @@ Re 3. - Владелец / операторы могут создавать по
 Полная модель ЖЦ насоса см. ниже. Круто конечно для насоса, но возникает вопрос: для оформления запроса на получение новых знаний (одна из заявленных возможностей стандарта) каким уровнем детализации каждого объекта (в запросе участвует не один объект) должен обладать пользователь???????
 ```
 
-<img src="C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-20-1.png" alt="image-20-1.png" style="zoom:200%;" />
+![image-20-1.png](images_ISO15926_cons_paper\image-20-1.png)
 
 
 
@@ -1448,6 +1370,8 @@ The narrative for 'normal operating outlet steam pressure auxiliary driver' coul
 
 Изложение факта о «нормальном рабочем выходе вспомогательного привода давления пара» ('normal operating outlet steam pressure auxiliary driver') может быть примерно таким на некотором структурированном английском языке с правильным шаблоном в качестве результата:
 
+
+
 > ·     A [**PUMP SYSTEM**] [class] [has] an [**AUXILIARY DRIVER**] [class] as [part] - [ClassOfAssemblyDefinition](http://15926.org/templatespecs/CL-STRUC-180.xml?cachebuster=0.74065100 1587300280)
 >
 > ·     that [**AUXILIARY DRIVER**] is a [**STEAM TURBINE**] – [SpecializationOfClassOfIndividual](http://15926.org/templatespecs/CL-SPECN-100.xml?cachebuster=0.73142100 1587300280) 
@@ -1459,7 +1383,9 @@ The narrative for 'normal operating outlet steam pressure auxiliary driver' coul
 > ·     the [**DRIVER STEAM**] [has] a [NORMAL OPERATING PRESSURE] - [ClassOfIndividualHasIndirectPropertyWithValue](http://15926.org/templatespecs/CL-INDPTY-400.xml?cachebuster=0.73690500 1587300280)
 >
 
- The [names] in capitals are labels of classes in the Reference Data Library, and the [words] in lower case are frequently used proxies for Part 2 instances of ClassOfRelationship.
+ 
+
+The [names] in capitals are labels of classes in the Reference Data Library, and the [words] in lower case are frequently used proxies for Part 2 instances of ClassOfRelationship.
 
 [Имена] в заглавных буквах являются метками классов в Библиотеке справочных данных, а [слова] в нижнем регистре часто используются в качестве полномочий для экземпляров ClassOfRelationship части 2.
 
@@ -1615,6 +1541,8 @@ Using the code shown earlier in this paper a typical file looks like this:
 
 Используя код, показанный ранее в этой статье, типичный файл выглядит следующим образом:
 
+
+
 > @prefix : <http://www.p1234.xyz-corp.com/> .
 >
 > @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -1744,6 +1672,8 @@ After the validation the exchange file is converted to N-Triples. For the above 
 
 После проверки файл обмена преобразуется в N-триплеты. Для вышеупомянутого файла обмена триплеты следующие:
 
+
+
 > <http://www.p1234.xyz-corp.com/501b174f-9ab4-4b1d-a64e-0c143c91b7e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.15926.org/lci/InanimatePhysicalObject> .
 >
 > <http://www.p1234.xyz-corp.com/501b174f-9ab4-4b1d-a64e-0c143c91b7e2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://data.15926.org/dm/ActualIndividual> .
@@ -1801,6 +1731,10 @@ These triples are stored in a triple store as defined in ISO 15926-9.
 This part of ISO 15926 is still under development. 
 
 Эта часть ISO 15926 все еще находится в стадии разработки.
+
+```
+Нет хранилища еще
+```
 
 A provisional definition of its functionality is as follows:
 
@@ -1916,7 +1850,7 @@ Any class in an RDL extension shall be, directly or indirectly, be a subclass of
 
  Любой класс в расширении RDL должен быть прямо или косвенно подклассом класса части 4.
 
-![image-21.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-21.png)
+![image-21.png](images_ISO15926_cons_paper\image-21.png)
 
 Figure 19 – Reference Data Library and its extensions Рисунок 19 - Библиотека справочных данных и ее расширения
 
@@ -1924,7 +1858,7 @@ Figure 19 – Reference Data Library and its extensions Рисунок 19 - Би
 
 ## **RELATED SUBJECTS СВЯЗАННЫЕ СУБЪЕКТЫ**
 
-### **DOCUMENTS AND ISO 15926 **ДОКУМЕНТЫ И ISО 15926**
+### **DOCUMENTS AND ISO 15926 **ДОКУМЕНТЫ И ISО 15926
 
 The engineering world is a world of documents, many documents and these will, for the most, not be replaced with data. But they can be seamlessly integrated with the data. 
 
@@ -1934,7 +1868,7 @@ This can be done by integrating the document meta data, stored in an EDMS (Elect
 
  Это можно сделать путем интеграции метаданных документа, хранящихся в EDMS (Electronic Document Management System - Система электронного документооборота), в информацию о жизненном цикле завода, как показано на рис. 20.
 
-![image-22.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-22.png)
+![image-22.png](images_ISO15926_cons_paper\image-22.png)
 
 Figure 20 – Integration of documents in life-cycle information Рисунок 20 - Интеграция документов в информацию жизненного цикла
 
@@ -2034,7 +1968,7 @@ Parts 12 and 14 may use the integrated life-cycle information for analysis. Sinc
 
  Части 12 и 14 могут использовать интегрированную информацию жизненного цикла для анализа. Поскольку обе части соответствуют Части 2, будь то частично, отображение не должно быть большой проблемой.
 
-![image-23.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-23.png)
+![image-23.png](images_ISO15926_cons_paper\image-23.png)
 
 Figuur 21 - Overview of ISO 15926 Рисунок 21 - Обзор ISO 15926
 
@@ -2082,7 +2016,7 @@ We embarked on this quest nearly 30 years ago. This quest has often felt as a Si
 
 Мы начали этот квест почти 30 лет назад. Этот квест часто считался Сизифовой задачей, но мы наконец видим свет в конце туннеля.
 
-![image-24.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-24.png)
+![image-24.png](images_ISO15926_cons_paper\image-24.png)
 
 Now it is up to the plant owner/operators to put this to work, because the rest of the actors in the process industries will wait for that to happen before they take serious action.
 
@@ -2103,3 +2037,9 @@ This can be illustrated with an example: Assume your company has stored, through
 However, as the proverb says: "You can lead the horse to the water, but you can't make him drink". We need thirsty horses. :))
 
 Однако, как гласит пословица: «Вы можете привести лошадь к воде, но вы не можете заставить ее пить». Нам нужны жаждущие лошади. :))
+
+```
+Итог, 30 лет прошло с начала разработки стандарта. Модель – сложная из-за временных частей через использование шаблонов. Насколько верно был выбран путь шаблонов – не знаю. С одной стороны - для стандартизации описания семантики оборудования. Но, как для меня проще было бы шаблоны создавать под типовое оборудование. Работы над стандартом осталось еще очень много, в частности - хранилище и маппирование, а без него реализовать идею стандарта проблематично.
+Если в ближайшее время стандартом не заинтересуется коммерческая организация и не вложит в него деньги, он так и останется на бумаге. 
+```
+

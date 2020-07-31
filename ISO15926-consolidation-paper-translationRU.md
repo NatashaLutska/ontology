@@ -1,6 +1,6 @@
-​                https://15926.org/topics/                          
+                https://15926.org/topics/                          
 
-  ![image-1.png](C:\Users\Nata\Desktop\онтологія\git_v1\images_ISO15926_cons_paper\image-1.png)    
+  ![image-1.png](images_ISO15926_cons_paper/image-1.png)    
 
 ### Table of Contents
 

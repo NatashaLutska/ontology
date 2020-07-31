@@ -80,7 +80,7 @@ Computer systems also speak their own language internally, and as such can only 
 
 Компьютерные системы также говорят на своем собственном внутренним языке и как таковые могут общаться с другими системами только через интерфейсы. Количество интерфейсов растет экспоненциально с количеством систем. Если у вас две системы, у вас есть два интерфейса. Но если у вас есть десять систем, у вас уже есть максимум 90 интерфейсов.
 
- ![image-3.png](images_ISO15926_cons_paper/image-3.png)
+ <img src="images_ISO15926_cons_paper/image-3.png" alt="image-3.png" style="zoom:33%;" />
 
 Figure 2 - Point-to-point interfaces Рисунок 2 - Двухточечные интерфейсы
 
@@ -96,7 +96,7 @@ So, the solution is that we teach all our systems one common language.
 
  Таким образом, решение состоит в том, чтобы учить все наши системы одному общему языку.
 
-![image-4.png](images_ISO15926_cons_paper/image-4.png)
+<img src="images_ISO15926_cons_paper/image-4.png" alt="image-4.png" style="zoom:33%;" />
 
 Figure 3 - One interface only via a hub  Рисунок 3 - Один интерфейс только через концентратор
 
@@ -752,7 +752,7 @@ Ontologies in ISO 15926 can involve more than above one level as is shown in Fig
 
  Онтологии в ISO 15926 могут включать более одного уровня, как показано на рисунке 12.
 
-![image-14.png](images_ISO15926_cons_paper\image-14.png)
+![image-14.png](images_ISO15926_cons_paper/image-14.png)
 
 Figure 12 – Two-level ontology and implementation 
 
@@ -785,7 +785,7 @@ This can be specialized, for example by replacing ClassOfFunctionalObject with i
 
 ```
 
-![image-14_1.png](images_ISO15926_cons_paper\image-14_1.png)
+![image-14_1.png](images_ISO15926_cons_paper/image-14_1.png)
 
 
 
@@ -967,7 +967,7 @@ For this template the graph of Fig. 14 is given.
 
 Для этого шаблона приведен график на рис. 14.
 
-![image-16.png](images_ISO15926_cons_paper\image-16.png)
+![image-16.png](images_ISO15926_cons_paper/image-16.png)
 
 Figure 14 – Example template graph Рисунок 14 - Пример шаблона графа
 
@@ -1027,7 +1027,7 @@ In order to give meaning to the relations of a MultidimensionalObject a classifi
 
 Чтобы придать смысл отношениям MultidimensionalObject, требуется классификация с экземпляром ClassOfMultidimensionalObject, см. Рис. 15.
 
- ![image-17.png](images_ISO15926_cons_paper\image-17.png)
+ ![image-17.png](images_ISO15926_cons_paper/image-17.png)
 
 Figure 15 – An example of the use of MultidimensionalObject Рисунок 15 - Пример использования MultidimensionalObject
 
@@ -1167,7 +1167,7 @@ These are the most important ones, and in the Plant Life-cycle Model (discussed 
 
  Это наиболее важные из них, и в модели жизненного цикла установки (обсуждаемой позже) это четко показано:
 
-![image-18.png](images_ISO15926_cons_paper\image-18.png)
+![image-18.png](images_ISO15926_cons_paper/image-18.png)
 
 Figure 16 – Chain of temporal parts in the real world Рисунок 16 - Цепочка временных частей в реальном мире
 
@@ -1217,7 +1217,7 @@ Temporal part Individuals and Classes must be declared and then will be linked t
 
  Временная часть Индивидуумов и классы должны быть объявлены и затем будут связаны с их (классом) временного целого с помощью шаблона, как показано на рис. 17.
 
-![image-19.png](images_ISO15926_cons_paper\image-19.png)
+![image-19.png](images_ISO15926_cons_paper/image-19.png)
 
 Figure 17 – Adding a (Class of) temporal part Рисунок 17 - Добавление (класса) временной части
 
@@ -1277,7 +1277,7 @@ Re 1. – Fig. 18 shows a high-level plant life-cycle model:
 
 Re 1. - На рис. 18 показана модель жизненного цикла объекта на высоком уровне:
 
-![image-20.png](images_ISO15926_cons_paper\image-20.png)
+![image-20.png](images_ISO15926_cons_paper/image-20.png)
 
 Figure 18 – High-level Plant Life-cycle Model Рисунок 18 - Модель жизненного цикла объекта на высоком уровне
 
@@ -1299,7 +1299,7 @@ Re 3. - Владелец / операторы могут создавать по
 Полная модель ЖЦ насоса см. ниже. Круто конечно для насоса, но возникает вопрос: для оформления запроса на получение новых знаний (одна из заявленных возможностей стандарта) каким уровнем детализации каждого объекта (в запросе участвует не один объект) должен обладать пользователь???????
 ```
 
-![image-20-1.png](images_ISO15926_cons_paper\image-20-1.png)
+![image-20-1.png](images_ISO15926_cons_paper/image-20-1.png)
 
 
 
@@ -1858,7 +1858,7 @@ Figure 19 – Reference Data Library and its extensions Рисунок 19 - Би
 
 ## **RELATED SUBJECTS СВЯЗАННЫЕ СУБЪЕКТЫ**
 
-### **DOCUMENTS AND ISO 15926 **ДОКУМЕНТЫ И ISО 15926
+### **DOCUMENTS AND ISO 15926 ДОКУМЕНТЫ И ISО 15926**
 
 The engineering world is a world of documents, many documents and these will, for the most, not be replaced with data. But they can be seamlessly integrated with the data. 
 
@@ -1868,7 +1868,7 @@ This can be done by integrating the document meta data, stored in an EDMS (Elect
 
  Это можно сделать путем интеграции метаданных документа, хранящихся в EDMS (Electronic Document Management System - Система электронного документооборота), в информацию о жизненном цикле завода, как показано на рис. 20.
 
-![image-22.png](images_ISO15926_cons_paper\image-22.png)
+![image-22.png](images_ISO15926_cons_paper/image-22.png)
 
 Figure 20 – Integration of documents in life-cycle information Рисунок 20 - Интеграция документов в информацию жизненного цикла
 
@@ -1968,7 +1968,7 @@ Parts 12 and 14 may use the integrated life-cycle information for analysis. Sinc
 
  Части 12 и 14 могут использовать интегрированную информацию жизненного цикла для анализа. Поскольку обе части соответствуют Части 2, будь то частично, отображение не должно быть большой проблемой.
 
-![image-23.png](images_ISO15926_cons_paper\image-23.png)
+![image-23.png](images_ISO15926_cons_paper/image-23.png)
 
 Figuur 21 - Overview of ISO 15926 Рисунок 21 - Обзор ISO 15926
 
@@ -2016,7 +2016,7 @@ We embarked on this quest nearly 30 years ago. This quest has often felt as a Si
 
 Мы начали этот квест почти 30 лет назад. Этот квест часто считался Сизифовой задачей, но мы наконец видим свет в конце туннеля.
 
-![image-24.png](images_ISO15926_cons_paper\image-24.png)
+![image-24.png](images_ISO15926_cons_paper/image-24.png)
 
 Now it is up to the plant owner/operators to put this to work, because the rest of the actors in the process industries will wait for that to happen before they take serious action.
 
